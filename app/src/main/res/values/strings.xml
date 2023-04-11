@@ -1,0 +1,463 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <string name="app_name">Sách Giáo Lý Công Giáo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="so_cap_I">XƯNG TỘI và RƯỚC LỄ I</string>
+    <string name="so_cap_II">XƯNG TỘI và RƯỚC LỄ II</string>
+    <string name="so_cap_III">THÊM SỨC IV</string>
+
+    <string name="can_ban_I">THÊM SỨC I</string>
+    <string name="can_ban_II">THÊM SỨC II</string>
+    <string name="can_ban_III">THÊM SỨC III</string>
+
+    <string name="kinh_thanh_I">Kinh Thánh I</string>
+    <string name="kinh_thanh_II">Kinh Thánh II</string>
+    <string name="kinh_thanh_III">Kinh Thánh III</string>
+
+    <string name="vao_doi_I">Vào Đời I</string>
+    <string name="vao_doi_II">Vào Đời II</string>
+    <string name="vao_doi_III">Vào Đời III</string>
+
+    <string name="giao_ly_du_tong">Giáo Lý Dự Tòng</string>
+
+    <string name="hon_nhan_gia_dinh">Hôn Nhân Và Gia Đình</string>
+    <string name="gioi_thieu">Giới Thiệu</string>
+
+
+    <string-array name="stories_names">
+
+        <item>Bài 1 : Chúa Giêsu Dạy Ta Biết Thiên Chúa Là Cha Yêu Thương</item>
+        <item>Bài 2 : Thiên Chúa Là Cha</item>
+        <item>Bài 3: Thiên Chúa Yêu Thương Chúng Ta, Tạo Nên Mọi Loài Mọi Vật</item>
+        <item>Bài 4 : Thiên Chúa Yêu Thương Tạo Nên Loài Người</item>
+        <item>Bài 5 : Thiên Thần và Ma Quỷ</item>
+        <item>Bài 6 : Loài Người Phạm Tội và Thiên Chúa Hứa Ban Đấng Cứu Thế</item>
+        <item>Bài 7 : Thiên Chúa Chọn Abraham</item>
+        <item>Bài 8 : Thiên Chúa Lập Dân Israel Làm Dân Riêng Của Ngài</item>
+        <item>Bài 9 : Giao ước Xi Nai</item>
+        <item>Bài 10 : Chúa Giêsu Sinh Ra Bởi Đức Trinh Nữ Maria</item>
+        <item>Bài 11 : Chúa Giêsu Là Gương Mẫu Cho Ta Trong Gia Đình, Ở Trường Học Và Nơi Lối Xóm</item>
+        <item>Bài 12 : Chúa Giêsu Làm Việc</item>
+        <item>Bài 13 : Chúa Giêsu Yêu Mến Quê Hương Dân Tộc</item>
+        <item>Bài 14 : Chúa Giêsu Rao Giảng Tin Mừng Nước Trời</item>
+        <item>Bài 15 : Chúa Giêsu Rất Quyền Phép</item>
+        <item>Bài 16 : Chúa Giêsu Chọn Các Tông Đồ</item>
+        <item>Bài 17 : Chúa Giêsu Là Thầy Dạy Ta</item>
+        <item>Bài 18 : Chúa Giêsu Dạy Ta cầu Nguyện</item>
+        <item>Bài 19 : Ta Cầu Nguyện Với Cha Trên Trời</item>
+        <item>Bài 20 : Bữa Tiệc Ly</item>
+        <item>Bài 21 : Chúa Giêsu Chết Trên Thánh Giá</item>
+        <item>Bài 22 : Chúa Giêsu Sống Lại</item>
+        <item>Bài 23 : Chúa Giêsu Cứu Chuộc Ta</item>
+        <item>Bài 24 : Chúa Giêsu là Con Thiên Chúa</item>
+        <item>Bài 25 : Chúa Giêsu Sẽ Trở Lại .Trong Vinh Quang</item>
+        <item>Bài 26 : Chúa Cha và Chúa Giêsu Gởi Thánh Thần Đến Với Ta</item>
+        <item>Bài 27 : Chúa Thánh Thần Làm Cho Ta Nên Con Cái Thiên Chúa</item>
+        <item>Bài 28 : Chỉ Có Một Thiên Chúa Mà Thôi Là Chúa Cha, Chúa Con Và Chúa Thánh Thần (1/3)</item>
+        <item>Bài 29 : Chỉ Có Một Thiên Chúa Mà Thôi Là Chúa Cha, Chúa Con Và Chúa Thánh Thần (2/3)</item>
+        <item>Bài 30 : Chỉ Có Một Thiên Chúa Mà Thôi Là Chúa Cha, Chúa Con Và Chúa Thánh Thần (3/3)</item>
+        <item>Bài 31 : Cầu Nguyện Cùng Ba Ngôi Thiên Chúa</item>
+        <item>Bài 32 : Cầu Nguyện Sáng Tối Mỗi Ngày</item>
+        <item>Lời Mở Đầu</item>
+    </string-array>
+
+
+    <string-array name="so_cap_2">
+
+        <item>Bài 1: Hội Thánh là gia đình con cái Thiên Chúa</item>
+        <item>Bài 2: Sống trong Hội Thánh Chúa</item>
+        <item>Bài 3: Tổ  chức của Hội Thánh</item>
+        <item>Bài 4: Cầu nguyện trong   Hội Thánh</item>
+        <item>Bài 5: Đức Maria, Mẹ của Chúa Giêsu</item>
+        <item>Bài 6: Đức Maria, Mẹ Hội Thánh và Mẹ chúng ta</item>
+        <item>Bài 7: Cầu nguyện  với Mẹ Maria</item>
+        <item>Bài 8: Chết và phán xét</item>
+        <item>Bài 9: Cuộc sống đời sau</item>
+        <item>Bài 10: Trời mới đất mới</item>
+        <item>Bài 11: Sống xứng đáng là con cái Thiên Chúa</item>
+        <item>Bài 12: Tội lỗi làm ta xa Thiên Chúa (1)</item>
+        <item>Bài 13: Tội lỗi làm ta xa Thiên Chúa (2)</item>
+        <item>Bài 14: Sống theo luật Chúa dậy</item>
+        <item>Bài 15: Kính mến Thiên Chúa trên hết mọi sự</item>
+        <item>Bài 16: Yêu mến mọi người như chính bản thân ta</item>
+        <item>Bài 17: Học các nhân đức của Chúa Giêsu 1</item>
+        <item>Bài 18: Tám mối phúc thật</item>
+        <item>Bài 19: Sáu điều răn Hội Thánh</item>
+        <item>Bài 20: Sống ngày Chúa Nhật</item>
+        <item>Bài 21: Bí tích nơi gặp gỡ Thiên Chúa</item>
+        <item>Bài 22: Bí tích rửa tội cho ta được làm con Thiên Chúa</item>
+        <item>Bài 23: Chúa Giêsu là Bánh Hằng Sống nuôi dưỡng linh hồn ta</item>
+        <item>Bài 24: Chúa Giêsu đến với ta trong Thánh Lễ </item>
+        <item>Bài 25: Chúa Giêsu muốn ngự vào lòng ta</item>
+        <item>Bài 26: Chúa Giêsu mời ta đón rước Ngài (1)</item>
+        <item>Bài 27: Chúa Giêsu mời ta đón rước Ngài (2)</item>
+        <item>Bài 28: Chúa Giêsu lập bí tích giải tội</item>
+        <item>Bài 29: Chúa Giêsu tha tội cho ta</item>
+        <item>Bài 30: Dọn mình xưng tội (1)</item>
+        <item>Bài 31: Dọn mình xưng tội (2)</item>
+        <item>Bài 32: Cách xưng tội (1)</item>
+        <item>Bài 33: Cách xưng tội (2)</item>
+        <item>Lời ngỏ cùng giáo lý viên  </item>
+    </string-array>
+
+    <string-array name="so_cap_3">
+        <item>Lời mở đầu</item>
+        <item>Bài 1: Hội Thánh thờ phượng Thiên Chúa (1)</item>
+        <item>Bài 2: Hội Thánh thờ phượng Thiên Chúa (2)</item>
+        <item>Bài 3: Hội Thánh thờ phượng Thiên Chúa (3)</item>
+        <item>Bài 4: Linh Lạy Cha</item>
+        <item>Bài 5: Luyện tính tốt 1 : Quan tâm đến người khác</item>
+        <item>Bài 6: Lạy Cha chúng con ở trên trời</item>
+        <item>Bài 7: Bảy lời cầu xin (1)</item>
+        <item>Bài 8: Bảy lời cầu xin (2)</item>
+        <item>Bài 9: Luyện tính tốt 2: Đứng vững trong điều tốt</item>
+        <item>Bài 10: Các bí tích (1)</item>
+        <item>Bài 11: Các bí tích (2)</item>
+        <item>Bài 12: Bí tích rửa tội (1)</item>
+        <item>Bài 13: Bí tích rửa tội (2)</item>
+        <item>Bài 14: Bí tích thêm sức: Ghi ấn tín ơn Chúa Thánh Thần</item>
+        <item>Bài 15: Bí tích thêm sức làm cho ta nên nhân chứng Chúa Kitô</item>
+        <item>Bài 16: Luyện tính tốt 3:Tôn trọng mọi người và khiêm nhường lắng nghe </item>
+        <item>Bài 17: Chúa Giêsu lập bí tích Thánh Thể </item>
+        <item>Bài 18: Chúng ta cử hành Thánh lễ</item>
+        <item>Bài 19: Sống với Chúa Kitô Thánh Thể   </item>
+        <item>Bài 20: Chúa Giêsu lập bí tích giao hoà </item>
+        <item>Bài 21: Xét mình và ăn năn tội</item>
+        <item>Bài 22: Việc xưng tội</item>
+        <item>Bài 23: Đền tội và ân xá</item>
+        <item>Bài 24: Bí tích xức dầu bệnh nhân </item>
+        <item>Bài 25: Bí tích truyền chức thánh</item>
+        <item>Bài 26: Bí tích hôn phối</item>
+        <item>Bài 27: Gia đình là Hội Thánh nhỏ</item>
+        <item>Bài 28: Các phụ tích (Á bí tích)</item>
+        <item>Bài 29: Hội Thánh tỉnh thức cầu nguyện</item>
+        <item>Bài 30: Chết và phán xét</item>
+        <item>Bài 31: Xác sống lại và sự thưởng phạt đời đời </item>
+        <item>Bài 32:Phán xét chung và trời mới đất mới</item>
+
+
+    </string-array>
+
+
+    <string-array name="can_ban_1">
+        <item>Lời ngỏ cùng giáo lý viên</item>
+        <item>Bài 1: Con người có khả năng nhận biết Thiên Chúa</item>
+        <item>Bài 2: Thiên Chúa tỏ mình cho ta</item>
+        <item>Bài 3: Thiên Chúa nói với ta trong Kinh Thánh  </item>
+        <item>Bài 4: Nội dung sách Kinh Thánh  </item>
+        <item>Bài 5: Chương trình Thiên Chúa muốn cho đời ta    </item>
+        <item>Bài 6: Tin vào Thiên Chúa  </item>
+        <item>Bài 7: Luyện tính tốt 1: Bắt đầu một ngày mới</item>
+        <item>Bài 8: Cầu nguyện</item>
+        <item>Bài 9: Luyện tính tốt 2: Hoàn tất một ngày</item>
+        <item>Bài 10: Tôi tin kính một Thiên Chúa duy nhất</item>
+        <item>Bài 11: Thiên Chúa sáng tạo nên mọi loài mọi vật  </item>
+        <item>Bài 12: Con người được tạo nên giống hình ảnh Thiên Chúa </item>
+        <item>Bài 13: Tội tổ tông</item>
+        <item>Bài 14: Thiên Chúa hứa ban Đấng Cứu Thế</item>
+        <item>Bài 15: Abraham, tổ phụ những người tin vào Chúa </item>
+        <item>Bài 16: Thiên Chúa lập Israel làm dân riêng</item>
+        <item>Bài 17: Giao ước Sinai</item>
+        <item>Bài 18: Đấng Cứu Thế sẽ phát xuất từ dòng dõi vua Đavit</item>
+        <item>Bài 19: Các ngôn sứ</item>
+        <item>Bài 20: Thiên Chúa huấn luyện dân Ngài trong thời lưu đầy</item>
+        <item>Bài 21: Gương cầu nguyện trong Cựu Ước</item>
+        <item>Bài 22: Con người có tự do</item>
+        <item>Bài 23: Trách nhiệm luân lý</item>
+        <item>Bài 24: Lương tâm </item>
+        <item>Bài 25: Luật luân lý</item>
+        <item>Bài 26: Ơn Chúa</item>
+        <item>Bài 27: Dứt khoát với tội lỗi</item>
+        <item>Bài 28 : Điều răn 1(1): Kính mến Thiên Chúa hết lòng, hết sức, trên hết mọi sự</item>
+        <item>Bài 29: Điều răn 1(2): Thờ phượng Thiên Chúa</item>
+        <item>Bài 30: Điều răn 2: Tôn kính Danh Thiên Chúa</item>
+        <item>Bài 31: Điều răn 3: Thánh hoá ngày Chúa Nhật</item>
+        <item>Bài 32: Dân Chúa mong đợi Đấng Cứu Thế</item>
+
+    </string-array>
+
+    <string-array name="can_ban_2">
+        <item>Lời mở đầu</item>
+        <item>Bài 1: Thiên Chúa đã sai con Ngài đến</item>
+        <item>Bài 2: Con Thiên Chúa làm người </item>
+        <item>Bài 3: Ngài đã nhập thể trong lòng Trinh Nữ</item>
+        <item>Bài 4: Chúa Giêsu trong gia đình Nagiarét</item>
+        <item>Bài 5: Luyện tính tốt : trật tự và đúng giờ (1)</item>
+        <item>Bài 6: Con người là hình ảnh Thiên Chúa</item>
+        <item>Bài 7: Luyện tính tốt : Làm tròn bổn phận (2)</item>
+        <item>Bài 8: Điều răn thứ tư: Thảo kính cha mẹ (1)</item>
+        <item>Bài 9: Điều răn thứ tư: Trong gia tộc (2)</item>
+        <item>Bài 10: Điều răn thứ tư: Trong cộng đồng nhân loại (3)</item>
+        <item>Bài 11: Tôn trọng sự sống </item>
+        <item>Bài 12: Điều răn thứ sáu: Sống khiết tịnh</item>
+        <item>Bài 13: Điều răn thứ bảy: Sống công bằng (1)</item>
+        <item>Bài 14: Điều răn thứ bảy: Nguyên tắc về công bằng và xã hội (2)</item>
+        <item>Bài 15: Điều răn thứ tám: Sống trong sự thật</item>
+        <item>Bài 16: Điều răn thứ chín: Sống trong sạch từ trong ước muốn</item>
+        <item>Bài 17: Chế ngự lòng tham để khao khát Thiên Chúa </item>
+        <item>Bài 18: Chúa Giêsu bước vào cuộc đời công khai</item>
+        <item>Bài 19: Chúa Giêsu loan báo Nước Thiên Chúa </item>
+        <item>Bài 20: Những dấu chỉ về Nước Thiên Chúa </item>
+        <item>Bài 21: Chúa Giêsu tuyển chọn các tông đồ</item>
+        <item>Bài 22: Chúa Giêsu là gương mẫu cầu nguyện cho ta</item>
+        <item>Bài 23: Nhân đức</item>
+        <item>Bài 24: Nhân đức nhân bản (1) </item>
+        <item>Bài 25: Nhân đức nhân bản (2)</item>
+        <item>Bài 26: Các nhân đức hướng thần</item>
+        <item>Bài 27: Chúa Giêsu bị chống đối</item>
+        <item>Bài 28: Chúa Giêsu tự nguyện chết để đền tội chúng ta</item>
+        <item>Bài 29: Chúa Giêsu chết trên Thánh Giá làm Hy Lễ của Giao Ước Mới</item>
+        <item>Bài 30: Chúa Giêsu đã sống lại</item>
+        <item>Bài 31: Chúa Giêsu sống lại ban cho ta sự sống đời đời</item>
+        <item>Bài 32: Chúa Giêsu lên trời ngự bên hữu Chúa Cha và sẽ trở lại trong vinh quang</item>
+    </string-array>
+
+    <string-array name="can_ban_3">
+        <item>Bài 1: Chúa Thánh Thần Là Thiên Chúa</item>
+        <item>Bài 2: Chúa Thánh Thần Trong Cựu Ước</item>
+        <item>Bài 3: Chúa Thánh Thần Trong Cuộc Đời Chúa Giêsu</item>
+        <item>Bài 4: Chúa Thánh Thần Trong Đời Sống Hội Thánh</item>
+        <item>Bài 5: Cẩn Thận Từ Việc Nhỏ</item>
+        <item>Bài 6: Chỉ Có Một Thiên Chúa mà Thôi Là Cha Và Con Và Thánh Thần</item>
+        <item>Bài 7: Cộng Đoàn Hội Thánh</item>
+        <item>Bài 8: Hội Thánh Theo Chương Trình Của Thiên Chúa</item>
+        <item>Bài 9: Những Khía Cạnh Của Mầu NHiệm Hội Thánh</item>
+        <item>Bài 10: Hội Thánh Duy Nhất</item>
+        <item>Bài 11: Hội Thánh Thánh Thiện</item>
+        <item>Bài 12: Hội Thánh Công Giáo</item>
+        <item>Bài 13: Hội Thánh Tông Truyền</item>
+        <item>Bài 14: Các Chủ Chăn Trong Hội Thánh (1)</item>
+        <item>Bài 15: Các Chủ Chăn Trong Hội Thánh (2)</item>
+        <item>Bài 16: Giáo Dân Trong Hội Thánh</item>
+        <item>Bài 17: Các Tu Sĩ Nam Nữ Trong Hội Thánh</item>
+        <item>Bài 18: Ơn Gọi</item>
+        <item>Bài 19: Luyện Tính Tốt 2 : Ham Học</item>
+        <item>Bài 20: Sự Hiệp Thông Các Thánh</item>
+        <item>Bài 21: Luyện Thính Tốt 3 : Đem Hạnh Phúc Cho Gia Đình Mình</item>
+        <item>Bài 22: Đức Maria, Mẹ Hội Thánh</item>
+        <item>Bài 23: Tôi Tin Phếp Tha Tội</item>
+        <item>Bài 24: Hội Thánh Là Thầy Và Là Mẹ</item>
+        <item>Bài 25: Chúa Thánh Thần Dạy Ta Cầu Nguyện</item>
+        <item>Bài 26: Cầu Nguyện Với Thiên Chúa Ba Ngôi</item>
+        <item>Bài 27: Tâm Tình Cầu Nguyện Của Hội Thánh</item>
+        <item>Bài 28: Cầu Nguyện Với Mẹ Maria</item>
+        <item>Bài 29: Kinh Nghiệm Cầu Nguyện Của Hội Thánh</item>
+        <item>Bài 30: Những Hình Thức Cầu Nguyện</item>
+        <item>Bài 31: Cố Gắng Khi Cầu Nguyện</item>
+        <item>Bài 32: Kiên Trì Trong Lòng Mến</item>
+    </string-array>
+
+    <string-array name="kinh_thanh1">
+        <item>BÀI 01 : Thiên Chúa Nói Với Ta</item>
+        <item>BÀI 02 : Kinh Thánh, Sách Ghi Lại Lịch Sử Cứu Độ</item>
+        <item>BÀI 03 : Kinh Thánh, Lời Thiên Chúa Nói Với Ta</item>
+        <item>BÀI 04 : Các Sách Cựu Ước</item>
+        <item>BÀI 05 : Thiên Chúa Sáng Tạo</item>
+        <item>BÀI 06 : Lòng Biết ơn ,*</item>
+        <item>BÀI 07 : Con Người Là Hình Ảnh Thiên Chúa</item>
+        <item>BÀI 08 : Chương Trình Thiên Chúa Trên Đời ta</item>
+        <item>BÀI 09 : Loài Người Đã Không Vâng Phục Thiên Chúa</item>
+        <item>BÀI 10 : Vươn Lên Mỗi Ngày, *</item>
+        <item>BÀI 11 : Cụ Abraham Tổ Phụ Những Người Tin Vào Thiên Chúa</item>
+        <item>BÀI 12 : Ông Môsê - Người Của Thiên Chúa</item>
+        <item>BÀI 13 : Lễ Vượt Qua Và Ngày Giải Thoát</item>
+        <item>BÀI 14 : Giao Ước Sinai</item>
+        <item>BÀI 15 : Sống Có Kỷ Luật, *</item>
+        <item>BÀI 16 : Cuộc Tôi Luyện Trong Sa Mạc</item>
+        <item>BÀI 17 : Đất Hứa</item>
+        <item>BÀI 18 : Vua Đa Vít</item>
+        <item>BÀI 19 : Êlia Vị Ngôn Sứ Của Lòng Nhiệt Thành</item>
+        <item>BÀI 20 : Thiên Chúa Huấn Luyện Dân Ngài Trong Thời Lưu Đày</item>
+        <item>BÀI 21 : Sống Tốt Với Mọi Người, *</item>
+        <item>BÀI 22 : Tự Do Và Trách Nhiệm</item>
+        <item>BÀI 23 : Lương Tâm và Lề Luật Chúa Hướng Dẫn Ta</item>
+        <item>BÀI 24 : Tội Lỗi Và Ơn Chúa</item>
+        <item>BÀI 25 : Thờ Phượng Thiên Chúa Hết Lòng</item>
+        <item>BÀI 26 : Xây Dựng Bầu Khí Gia Đình *</item>
+        <item>BÀI 27 : Cầu Nguyện Là Gì?</item>
+        <item>BÀI 28 : cầu Nguyện Chung : Phụng Vụ</item>
+        <item>BÀI 29 : Các Quan Hệ Xã Hội</item>
+        <item>BÀI 30 : Dưới Mái Trường Thân Yêu *</item>
+        <item>BÀI 31 : Dọn Lòng Đón Nhận Đấng Cứu Thế</item>
+    </string-array>
+
+    <string-array name="kinh_thanh2">
+        <item>BÀI 01 : Dẫn Vào Tân Ước</item>
+        <item>BÀI 02 : Đọc Tin Mừng Thế Nào</item>
+        <item>BÀI 03 : Nước Do Thái Thời Chúa Giêsu</item>
+        <item>Bái 04 : Thiên Chúa Đã Sai Con Ngài Đến</item>
+        <item>BÀI 05 : Chúa Giêsu ở Na-gia-rét Sống Mỗi Ngày Một Đẹp</item>
+        <item>BÀI 06 : Sống Tốt Với Hàng Xóm Láng Giềng</item>
+        <item>BÀI 07 : Đức Giêsu Sáng Suốt Chiến Thắng Cám Dỗ</item>
+        <item>BÀI 08 : Bước Theo Chân Chúa</item>
+        <item>BÀI 09 : Lạy Cha Chúng Con Ở Trên Trời</item>
+        <item>BÀI 10 : Con Có Một Tổ Quốc</item>
+        <item>BÀI 11 : Đức Giêsu Yêu Thương Những Người Yếu Đuối</item>
+        <item>Bài 12 : Ngài Có Đúng Là Đấng Phải Đến</item>
+        <item>Bài 13 : Nhận Biết Chúa Giêsu Là Đấng Cứu Thế</item>
+        <item>Bài 14 : Sáng Suốt Nhận Định</item>
+        <item>BÀI 15 : Phần Các Con, Các Con Bảo Thầy Là Ai?</item>
+        <item>BÀI 16 : Học Để Phục Vụ Hữu Hiệu Hơn</item>
+        <item>Bài 17 : Chúa Giêsu Bị Chống Đối</item>
+        <item>Bài 18 : Bữa Tiệc Ly Và Bí Tích Thánh Thể</item>
+        <item>Bài 19 : Đức Giêsu Chết Để Chiến Thắng Đau Khổ và Sự Chết</item>
+        <item>Bài 20 : Quảng Đại Quên Mình Vì Ích Chung</item>
+        <item>Bài 21 : Chúa Đã Chết Và Sống Lại Để Cứu Chuộc Ta</item>
+        <item>Bài 22 : Thiên Chúa Giao Hòa Ta Với Người</item>
+        <item>Bài 23 : Những Người Bạn Của Chúa Giêsu</item>
+        <item>Bài 24 : Tình Bạn</item>
+        <item>Bài 25 : Sống Mầu Nhiệm Tử Nạn và Phục Sinh</item>
+        <item>Bài 26 : Chúa Giêsu Lên Trời Ngự Bên Hữu Đức Chúa Cha</item>
+        <item>Bài 27 : Chúa Giêsu Là Thiên Chúa Như Chúa Cha</item>
+        <item>Bài 28 : Chúa Giêsu Ban Thánh Thần Cho Các Tông Đồ</item>
+        <item>Bài 29 : Xây Dựng Một Xã Hội Tốt Đẹp</item>
+        <item>Bài 30 : Chúa Thánh Thần Là Thiên Chúa Cha và Chúa Con</item>
+        <item>Bài 31 : Chỉ Có Một Thiên Chúa Thôi Là: Chúa Cha, Chúa Con và Chúa Thánh Thần</item>
+    </string-array>
+
+    <string-array name="kinh_thanh3">
+        <item>Bài 1: Tập Nhật Ký Của Hội Thánh Thuở Ban Đầu: Sách Công Vụ Tông Đồ</item>
+        <item>Bài 2: Các Thư Trong Tân Ước</item>
+        <item>Bài 3: Sách Khải Huyền Giúp ta Biết Hướng Đi Của Lịch Sử</item>
+        <item>Bài 4: Hội Thánh Trong Chương Trình Của Thiên Chúa</item>
+        <item>Bài 5: Hội Thánh Là Dân Của Giao Ước</item>
+        <item>Bài 6: Niềm Vui Làm Con Thiên Chúa</item>
+        <item>Bài 7: Sự Hiệp Thông Trong Hội Thánh</item>
+        <item>Bài 8: Đức Maria, Mẹ Chúa Giêsu và Mẹ Chúng Ta</item>
+        <item>Bài 9: Hội Thánh Cử Hành Phụng Vụ</item>
+        <item>Bài 10: Các Bí Tích Khai Tâm Ki-Tô Giáo</item>
+        <item>Bài 11: Chúa Gọi Tôi Đi Tới</item>
+        <item>Bài 12: Các Bí Tích Phục Hồi Tâm Linh</item>
+        <item>Bài 13: Các Bí Tích Xây Dựng Cộng Đoàn</item>
+        <item>Bài 14: Thánh Thiện Là Trong Sạch</item>
+        <item>Bài 15: Tin Mừng Trong Các Cộng Đoàn Ki-tô Hữu Đầu Tiên</item>
+        <item>Bài 16: Trong Đế Quốc Rôma, Hội Thánh Bị Bách Hại Nhưng Vẫn Lớn Mạnh</item>
+        <item>Bài 17: Hội Thánh Phát Triển Ở Đông Phương Và Tây Phương</item>
+        <item>Bài 18: Gây Men Tin Mừng Cho Đồng Bạn</item>
+        <item>Bài 19: Hội Thánh Chia Rẽ: Đông PHương và Tây PHương</item>
+        <item>Bài 20: Thế Kỷ XII - XIII: Có NHững Điều Đáng Tiếc</item>
+        <item>Bài 21: Thế Kỷ XII - XIII: NHững Điều Đáng Mừng</item>
+        <item>Bài 22: Hội Thánh Phía Tây Chia Rẽ và Canh Tân</item>
+        <item>Bài 23: Thế Kỷ XII - XIII: Hội Thánh Trong Thời Kỳ Biến Động</item>
+        <item>Bài 24: Kính Trọng Lòng Tin Của Người Khác</item>
+        <item>Bài 25: Thế Kỷ XIX: Hội Thánh Và Sự Khai Sinh Thế Giới Công Nghiệp</item>
+        <item>Bài 26: Tuổi Trẻ Và Những Vị Thánh</item>
+        <item>Bài 27: Trong Thế Giới Hiện Nay Các Kitô Hữu Lên Tiếng Và Hành Động</item>
+        <item>Bài 28: Xin Cho Họ Nên Một</item>
+        <item>Bài 29: Hội Thánh Trong Lịch Sử Việt Nam</item>
+        <item>Bài 30:Trong Cộng Đồng Nhân Loại</item>
+        <item>Bài 31: Chúa Kytô Tổng Kết Lịch Sử</item>
+
+    </string-array>
+
+    <string-array name="vao_doi_1">
+        <item>Bài 1 : Ánh sáng trần gian và muối cho đời</item>
+        <item>Bài 2 : Lương tâm</item>
+        <item>Bài 3 : Hành vi nhân linh</item>
+        <item>Bài 4 : Nhân đức đối thần</item>
+        <item>Bài 5 : Các nhân đức luân lý</item>
+        <item>Bài 6 : Tội</item>
+        <item>Bài 7 : Bảy mối tội đầu</item>
+        <item>Bài 8 : Hiến chương Nước Trời</item>
+        <item>Bài 9 : Thập giới, luật của tự do và tình yêu</item>
+        <item>Bài 10 : Tôn thờ Thiên Chúa</item>
+        <item>Bài 11 : Kêu cầu Thiên Chúa</item>
+        <item>Bài 12 : Ngày Chúa nhật</item>
+        <item>Bài 13 : Sống hiếu thảo</item>
+        <item>Bài 14 : Tôn trọng sự sống</item>
+        <item>Bài 15 : Sống trong sạch</item>
+        <item>Bài 16 : Sống công bình</item>
+        <item>Bài 17 : Tôn trọng sự thật</item>
+        <item>Bài 18 : Cầu nguyện</item>
+        <item>Bài 19 : Những khó khăn của việc cầu nguyện</item>
+        <item>Bài 20 : Đời ta đi về đâu ?</item>
+
+    </string-array>
+
+    <string-array name="vao_doi_2">
+        <item>Bài 1 : Hội thánh trong chương trình cứu độ của Thiên Chúa</item>
+        <item>Bài 2 : Tin Mừng và các nền văn hóa</item>
+        <item>Bài 3 : Hội thánh thời phôi thai ở Palestina</item>
+        <item>Bài 4 : Hội thánh ra khơi với Thánh Phaolô</item>
+        <item>Bài 5 : Người Kitô hữu trong một thế giới không hiểu họ</item>
+        <item>Bài 6 : Làm Kitô hữu trong những thế kỷ đầu</item>
+        <item>Bài 7 : Những cuộc bách hại</item>
+        <item>Bài 8 : Hội thánh thấm nhập vào đời sống xã hội</item>
+        <item>Bài 9 : Sự hình thành kinh tin kính</item>
+        <item>Bài 10 : Các Giáo phụ</item>
+        <item>Bài 11 : Hội thánh cảm hóa dân Mandi</item>
+        <item>Bài 12 : Các dòng tu</item>
+        <item>Bài 13 : Kitô giới (Chrétienté)</item>
+        <item>Bài 14 : Lạc giáo – Ly giáo</item>
+        <item>Bài 15 : Phục hưng và cải cách</item>
+        <item>Bài 16 : Phúc âm hóa thế giới</item>
+        <item>Bài 17 : Kitô giáo thời cận đại</item>
+        <item>Bài 18 : Giáo hội Việt Nam thời phôi thai</item>
+        <item>Bài 19 : Lịch sử Giáo hội Công giáo tại Việt Nam</item>
+        <item>Bài 20 : Hiện tình Giáo hội Công giáo tại Việt Nam</item>
+    </string-array>
+
+    <string-array name="hon_nhan_gia_dinh">
+        <item>  Bài 1: Ơn gọi hôn nhân trong chương trình của Thiên Chúa</item>
+        <item>  Bài 2: Hôn nhân Công giáo </item>
+        <item>  Bài 3: Giáo luật về Bí tích Hôn phối</item>
+        <item>  Bài 4: Hôn nhân khác tôn giáo </item>
+        <item>  Bài 5: Các thủ tục và nghi lễ Hôn phối</item>
+        <item>  Bài 6: Sống thời kỳ đính hôn</item>
+        <item>  Bài 7: Tình yêu vợ chồng</item>
+        <item>  Bài 8: Tính dục và hôn nhân</item>
+        <item>  Bài 9: Hoà hợp vợ chồng: Sự khác biệt giữa nam và nữ  </item>
+        <item>  Bài 10: Hoà hợp vợ chồng: Triển nở trong tình yêu</item>
+        <item>  Bài 11: Hoà hợp vợ chồng: Giải quyết những xung đột </item>
+        <item>  Bài 12: Sự phân ly vợ chồng </item>
+        <item>  Bài 13: Gia đình là Hội Thánh tại gia </item>
+        <item>  Bài 14: Linh đạo hôn nhân và gia đình</item>
+        <item>  Bài 15: Các bí tích trong đời sống Hôn nhân và gia đình  </item>
+        <item>  Bài 16: Cầu nguyện trong gia đình </item>
+        <item>  Bài 17: Sinh con có trách nhiệm</item>
+        <item>  Bài 18: Giáo dục con cái </item>
+        <item>  Bài 19: Đạo hiếu   </item>
+        <item>  Bài 20: Những ngày lễ của gia đình </item>
+        <item>  Bài 21: Gia đình và xã hội</item>
+    </string-array>
+
+
+    <string-array name="giao_ly_du_tong">
+        <item>Hướng Dẫn Sử Dụng Sách Giáo Lý Dự Tòng</item>
+        <item>Bài mở đầu : Tìm kiếm Thiên Chúa</item>
+        <item>Bài 1 : Nhận Biết Thiên Chúa</item>
+        <item>Bài 2 : Thiên Chúa Mặc Khải</item>
+        <item>Bài 3 : Thiên Chúa Tạo Dựng</item>
+        <item>Bài 4 : Con Người Sa Ngã</item>
+        <item>Bài 5 : Thiên Chúa Làm Người</item>
+        <item>Bài 6 : Tin Mừng Nước Trời</item>
+        <item>Bài 7 : Chúa Giêsu Cứu Độ Nhân Loại</item>
+        <item>Bài 8 : Chúa Giêsu Ban Thánh Thần</item>
+        <item>Bài 9 : Mầu Nhiệm Chúa Ba Ngôi</item>
+        <item>Bài 10 : Hội Thánh Truyền Giáo</item>
+        <item>Bài 11 : Giáo Hội Việt Nam</item>
+        <item>Bài 12 : Phụng Vụ và Bí Tích</item>
+        <item>Bài 13 : Bí Tích Thánh Tẩy</item>
+        <item>Bài 14 : Bí Tích Thêm Sức</item>
+        <item>Bài 15 : Bí Tích Thánh Thể</item>
+        <item>Bài 16 : Thánh Lễ Tạ Ơn</item>
+        <item>Bài 17 : Lương Tâm Và Tội Lỗi</item>
+        <item>Bài 18 : Bí Tích Hòa Giải</item>
+        <item>Bài 19 : Xức Dầu Bệnh Nhân</item>
+        <item>Bài 20 : Bí Tích Truyền Chức</item>
+        <item>Bài 21 : Bí Tích Hôn Phối</item>
+        <item>BÀI 22 : Mến Chúa Trên Hết</item>
+        <item>BÀI 23 : Yêu Người Như Chính Mình</item>
+        <item>BÀI 24 : Cầu Nguyện</item>
+    </string-array>
+
+
+</resources>

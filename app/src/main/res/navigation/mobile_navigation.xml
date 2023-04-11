@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.socap1.HomeFragment"
+        android:label="@string/so_cap_I"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.socap2.GalleryFragment"
+        android:label="@string/so_cap_II"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.socap3.SlideshowFragment"
+        android:label="@string/so_cap_III"
+        tools:layout="@layout/so_cap_i_i_i_fragment" />
+
+
+    <fragment
+        android:id="@+id/can_ban_I"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.canban1.CanBanIFragment"
+        android:label="@string/can_ban_I"
+        tools:layout="@layout/can_ban_i_fragment" />
+
+    <fragment
+        android:id="@+id/can_ban_II"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.canban2.CanBanIIFragment"
+        android:label="@string/can_ban_II"
+        tools:layout="@layout/can_ban_i_i_fragment" />
+
+    <fragment
+        android:id="@+id/can_ban_III"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.canban3.CanBanIIIFragment"
+        android:label="@string/can_ban_III"
+        tools:layout="@layout/can_ban_i_i_i_fragment" />
+
+    <fragment
+        android:id="@+id/kinh_thanh_I"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.kinhthanh1.KinhThanhIFragment"
+        android:label="@string/kinh_thanh_I"
+        tools:layout="@layout/kinh_thanh_i_fragment" />
+
+    <fragment
+        android:id="@+id/kinh_thanh_II"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.kinhthanh2.KinhThanhIIFragment"
+        android:label="@string/kinh_thanh_II"
+        tools:layout="@layout/kinh_thanh_i_i_fragment" />
+
+    <fragment
+        android:id="@+id/kinh_thanh_III"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.kinhthanh3.KinhThanhIIIFragment"
+        android:label="@string/kinh_thanh_III"
+        tools:layout="@layout/kinh_thanh_i_i_i_fragment" />
+
+    <fragment
+        android:id="@+id/vao_doi_I"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.vaodoi1.VaoDoiIFragment"
+        android:label="@string/vao_doi_I"
+        tools:layout="@layout/vao_doi_i_fragment" />
+
+    <fragment
+        android:id="@+id/vao_doi_II"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.vaodoi2.VaoDoiIIFragment"
+        android:label="@string/vao_doi_II"
+        tools:layout="@layout/vao_doi_i_i_fragment" />
+
+    <fragment
+        android:id="@+id/vao_doi_III"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.vaodoi3.VaoDoiIIIFragment"
+        android:label="@string/vao_doi_III"
+        tools:layout="@layout/vao_doi_i_i_i_fragment" />
+    <fragment
+        android:id="@+id/giao_ly_du_tong"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.dutong.DuTongFragment"
+        android:label="@string/giao_ly_du_tong"
+        tools:layout="@layout/du_tong_fragment" />
+
+    <fragment
+        android:id="@+id/hon_nhan_gia_dinh"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.honnhangiadinh.HonNhanFragment"
+        android:label="@string/hon_nhan_gia_dinh"
+        tools:layout="@layout/hon_nhan_fragment" />
+
+
+    <fragment
+        android:id="@+id/gioi_thieu"
+        android:name="joshuuduan.conggiao.giaolyvietnam.ui.gioithieu.GioThieuFragment"
+        android:label="@string/gioi_thieu"
+        tools:layout="@layout/gio_thieu_fragment" />
+
+
+</navigation>

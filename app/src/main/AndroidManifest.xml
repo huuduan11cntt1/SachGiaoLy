@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="joshuuduan.conggiao.giaolyvietnam">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SáchGiáoLýCôngGiáo">
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.DuTongActivityHTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.CanBan4HTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.HonNhanCongGiaoHtml"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.KinhThanhIII_HTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.KinhThanhII"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.KinhThanhI_HTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.CanBanII_HTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.CanBanI_HTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.MainHTML"
+            android:exported="false" />
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.ui.ContentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="joshuuduan.conggiao.giaolyvietnam.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SáchGiáoLýCôngGiáo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

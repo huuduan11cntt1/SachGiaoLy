@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_book"
+            android:title="@string/so_cap_I" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_book"
+            android:title="@string/so_cap_II" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_book"
+            android:title="@string/so_cap_III" />
+         <item
+            android:id="@+id/can_ban_I"
+            android:icon="@drawable/ic_baseline_book"
+            android:title="@string/can_ban_I" />
+        <item
+            android:id="@+id/can_ban_II"
+            android:icon="@drawable/ic_baseline_book"
+            android:title="@string/can_ban_II" />
+        <item
+            android:id="@+id/can_ban_III"
+            android:icon="@drawable/ic_baseline_book"
+            android:title="@string/can_ban_III" />
+         <item
+            android:id="@+id/kinh_thanh_I"
+            android:icon="@drawable/ic_book"
+            android:title="@string/kinh_thanh_I" />
+        <item
+            android:id="@+id/kinh_thanh_II"
+            android:icon="@drawable/ic_book"
+            android:title="@string/kinh_thanh_II" />
+        <item
+            android:id="@+id/kinh_thanh_III"
+            android:icon="@drawable/ic_book"
+            android:title="@string/kinh_thanh_III" />
+        <item
+            android:id="@+id/vao_doi_I"
+            android:icon="@drawable/ic_baseline_book"
+            android:title="@string/vao_doi_I" />
+        <item
+            android:id="@+id/vao_doi_II"
+            android:icon="@drawable/ic_baseline_book"
+            android:title="@string/vao_doi_II" />
+        <item
+            android:id="@+id/vao_doi_III"
+            android:icon="@drawable/ic_baseline_book"
+            android:title="@string/vao_doi_III" />
+        <item
+            android:id="@+id/giao_ly_du_tong"
+            android:icon="@drawable/ic_book"
+            android:title="@string/giao_ly_du_tong" />
+         <item
+            android:id="@+id/hon_nhan_gia_dinh"
+            android:icon="@drawable/ic_book"
+            android:title="@string/hon_nhan_gia_dinh" />
+        <item
+            android:id="@+id/gioi_thieu"
+            android:icon="@drawable/ic_book"
+            android:title="@string/gioi_thieu" />
+
+    </group>
+
+</menu>
